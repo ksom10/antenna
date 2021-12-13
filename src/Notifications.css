@@ -1,0 +1,30 @@
+.notifications{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100vw;
+    background-color: var(--main-color);
+    
+    
+  }
+  
+  .nav{
+    display: flex;
+    flex-direction: column;
+    background-color: white; 
+    height: 80px;
+    width: 100%;
+    
+  }
+  
+  .notificationsCont{
+    display: flex;
+    flex-direction: row;
+   width: 90%;
+   margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    justify-content: center;
+    height: 100vh;
+    
+  }

@@ -1,0 +1,44 @@
+.sidebar{
+    border-right: 1px solid var(--main-background);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    /* margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.sidebar__input{
+    display: flex;
+    align-items: center;
+    background-color: var(--main-background);
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.sidebar__input > input{
+    border: none;
+    background-color: var(--main-background);
+}
+
+.sidebar__searchIcon{
+    color: gray;
+}
+
+@media all and (max-width: 770px) {
+    .sidebar{
+        width: 100%;
+    }
+    
+}
+
+@media all and (max-width: 480px) {
+    .sidebar{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,29 @@
+.widgetsTwo {
+    flex: 0.3;
+    width: 400px;
+    height: 100vh;
+    
+    
+}
+
+
+
+.widgetsTwo__widgetContainer{
+    margin-top: 15px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+.widgetsTwo__widgetContainer > h2{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+@media all and (max-width: 770px) {
+    .widgetsTwo{
+        display: none;
+    }
+    
+}

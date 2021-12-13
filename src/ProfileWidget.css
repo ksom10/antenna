@@ -1,0 +1,81 @@
+.widgetsProf {
+    flex: 0.3;
+    width: 400px;
+    height: 100vh;
+    
+    
+}
+
+
+
+.widgetsProf__widgetContainer{
+    margin-top: 15px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.widgetsProf__widgetHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.widgetsProf__widgetHeader > button {
+    width: 30x;
+    height: 30px;
+    cursor: pointer;
+}
+
+.widgetsProf__widgetContainer > h2{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.widgetsProf__widgetInfo{
+    margin-top: 25px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.widgetsAvatar{
+    height: 50px;
+    width: 50px;
+}
+
+.widgetsProf__widgetName{
+    margin-top: 10px;
+}
+
+.widgetsProf__widgetName > h4{
+    color: gray;
+}
+
+.widgetsProf_widgetCount{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+}
+
+.widgetsProf_widgetFollowers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+@media all and (max-width: 770px) {
+    .widgetsProf{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,27 @@
+.exfeed{
+    flex: 0.4;
+    border-right: 1px solid var(--main-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+    background-color: white;
+    
+}
+
+.exfeed__header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--main-background);
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.exfeed__header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.exfeed::-webkit-scrollbar {
+    display: none;
+}
